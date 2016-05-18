@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>{{ page.title }}</title>
-	<link rel = "stylesheet" href  = "../css/article.css"/>
-	<link rel = "stylesheet" href  = "../css/normalize.css"/>
+	<link rel = "stylesheet" href  = "/css/article.css"/>
+	<link rel = "stylesheet" href  = "/css/normalize.css"/>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
 <body>
@@ -18,11 +18,11 @@
 	<div class = "container">
 		<article class = "main-page">
 			<header>
-				<div>{{header}}</div>
-				<div class = "tips">{{time}}</div>
+				<div>{{page.header}}</div>
+				<div class = "tips">{{page.time}}</div>
 			</header>
 			<section></section>
-			<footer><div class = "tips">{{author}}</div><div >{{footer}}</div></footer>
+			<footer><div class = "tips">{{page.author}}</div><div >{{page.footer}}</div></footer>
 		</article>
 	</div>
 	<footer class = "bottom-footer">
