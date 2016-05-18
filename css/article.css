@@ -1,0 +1,112 @@
+html{
+	font-size : 62.5%;
+	-ms-text-size-adjust: 100%; /* 2 */
+  	-webkit-text-size-adjust: 100%; /* 2 */
+}
+article,
+footer,
+header,
+nav,
+section{
+  display: block;
+}
+body{
+	font-family: serif;
+	background-color: rgb(230,230,230);
+}
+
+.top-header{
+	height : 5rem;
+	background-color : #ffffff;
+	position : fixed;
+	left : 0;right : 0;
+	display : block;
+	z-index : 2;
+}
+.top-header i{
+	display: inline-block;
+	min-width : 5rem;
+	height : 100%;
+	background-image : url("../images/logo.jpg");
+	background-repeat: no-repeat;
+	visibility : hidden;
+}
+.top-header nav{
+	height : 100%;
+	font-size : 0;
+	display: inline-block;
+	vertical-align: bottom;
+	position : absolute;
+	white-space : nowrap;
+	right : 5rem;
+}
+.top-header  nav a{
+	display : inline-block;
+	border-top-left-radius : .4rem;
+	border-top-right-radius : .4rem;
+	padding-right : .5rem;
+	font-size :2.5rem;
+	font-family : Microsoft Yahei;
+	line-height : 5rem;
+	transition : all .4s ease-in-out;
+}
+.top-header a:link, .top-header a:visited{}
+.top-header a:hover, .top-header a:active{
+	background-color: #d3d3d3;
+	opacity: .7;
+}
+.container{
+	position : relative;
+	top : 5rem;
+}
+.main-page{
+	width : 50%;
+	margin : 0 auto;
+}
+.main-page header{
+	font-size : 5rem;
+	border-bottom : .2rem solid #3d3d3d;
+	font-family : Microsoft Yahei;
+	white-space: normal;
+	word-break: break-all; 
+}
+.tips{
+	font-size : 2rem;
+	text-align : right;
+	font-family : Microsoft Yahei;
+}
+.main-page  section{
+	font-family: Microsoft Yahei;
+	font-size : 1.8rem;
+	line-height : 3rem;
+	padding : 2rem 2rem 0 2rem;
+	white-space: normal;
+	word-break: break-all; 
+}
+.main-page section:first-letter{
+	float : left;
+	font-size : 3.6rem;
+	vertical-align: top;	
+}
+.main-page footer{
+	margin-top : 2rem;
+	border-top : .2rem solid #3d3d3d;
+}
+footer div{
+	font-family : Microsoft Yahei;
+}
+.bottom-footer{
+	position : relative;
+	top : 5rem;
+	height : 20rem;
+}
+.wel{
+	position: absolute;
+	bottom : 0;
+	width : 100%;
+	text-align : center;
+}
+::selection{
+	background-color : red;
+	color : #ffffff;
+}
