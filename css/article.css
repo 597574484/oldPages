@@ -114,3 +114,20 @@ footer div{
 	background-color : red;
 	color : #ffffff;
 }
+.note-list{
+	list-style-type : none;
+}
+.note-list li{}
+.node-list a{
+	display : block;
+	text-align : center;
+	text-decoration : none;
+	color : #000000;
+	transition: all .5s ease-in-out;
+}
+.node-list a:link, .node-list a:visited{
+}
+.node-list a:hover, node-list a:active{
+	color : #ffffff;
+	background-color : #ff0000;
+}
