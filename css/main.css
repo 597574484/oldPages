@@ -82,6 +82,8 @@ a{
 #dream{
 	background-color : #ff0000;
 	color : #ffffff;
+	border-top-right-radius : 1.2rem;
+	overflow : hidden;
 }
 @media screen (max-width: 650px){
 	html{
