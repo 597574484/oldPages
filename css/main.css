@@ -1,6 +1,5 @@
 html{
 	font-size : 62.5%;
-
 	-ms-text-size-adjust: 100%; 
   	-webkit-text-size-adjust: 100%;
 }
@@ -58,7 +57,7 @@ a{
 	opacity: .7;
 }
 ::selection{
-	background-color : red;
+	background-color : #ff0000;
 	color : #ffffff;
 }
 .wrap{
@@ -79,6 +78,10 @@ a{
 	border-radius: 9px ;
 	position : relative;
 	top : 4rem;
+}
+#dream{
+	background-color : #ff0000;
+	color : #ffffff;
 }
 @media screen (max-width: 650px){
 	html{
