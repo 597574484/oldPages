@@ -1,13 +1,17 @@
 html{
 	font-size : 62.5%;
+
 	-ms-text-size-adjust: 100%; 
   	-webkit-text-size-adjust: 100%;
 }
 body{
-	font-family: serif;
+	font-family : Microsoft Yahei,sans-serif;
 	background-color: rgb(230,230,230);
 }
-
+a{
+	text-decoration: none;
+	color : #000000;
+}
 .top-header{
 	height : 5rem;
 	background-color : #ffffff;
@@ -40,16 +44,10 @@ body{
 	border-top-right-radius : .4rem;
 	min-width : 8rem;
 	text-align: center;
-	/*padding-right : .5rem;*/
 	font-size :2.5rem;
-	font-family : Microsoft Yahei;
 	line-height : 5rem;
 	transition : all .4s ease-in-out;
-	text-decoration: none;
-	color : #000000;
-}
-.top-header nav a:first-child{
-
+	font-weight : bold;
 }
 .active{
 	background-color: #8af2f2;
@@ -59,58 +57,26 @@ body{
 	background-color: #d3d3d3;
 	opacity: .7;
 }
-.container{
-	position : relative;
-	top : 5rem;
-}
-.main-page{
-	width : 50%;
-	margin : 0 auto;
-}
-.main-page header{
-	font-size : 5rem;
-	border-bottom : .2rem solid #3d3d3d;
-	font-family : Microsoft Yahei;
-	white-space: normal;
-	word-break: break-all; 
-}
-.tips{
-	font-size : 2rem;
-	text-align : right;
-	font-family : Microsoft Yahei;
-}
-.main-page  section{
-	font-family: Microsoft Yahei;
-	font-size : 1.8rem;
-	line-height : 3rem;
-	padding : 2rem 2rem 0 2rem;
-	white-space: normal;
-	word-break: break-all; 
-}
-.main-page section:first-letter{
-	float : left;
-	font-size : 3.6rem;
-	vertical-align: top;	
-}
-.main-page footer{
-	margin-top : 2rem;
-	border-top : .2rem solid #3d3d3d;
-}
-footer div{
-	font-family : Microsoft Yahei;
-}
-.bottom-footer{
-	position : relative;
-	top : 5rem;
-	height : 20rem;
-}
-.wel{
-	position: absolute;
-	bottom : 0;
-	width : 100%;
-	text-align : center;
-}
 ::selection{
 	background-color : red;
 	color : #ffffff;
+}
+.wrap{
+	position: absolute;
+	top : 5rem;right : 0;bottom : 0;left : 0;
+	margin : auto;
+	font-size : 5rem;
+	font-family: "Microsoft YaHei",serif,sans-serif;
+	text-align: center;
+	white-space: nowrap;
+	height  : 40%;
+}
+.inner a{
+	display: inline-block;
+	font-size : 3rem;
+	padding : 1.5rem;
+	border : 4px solid #3d3d3d;
+	border-radius: 9px ;
+	position : relative;
+	top : 4rem;
 }
