@@ -80,3 +80,8 @@ a{
 	position : relative;
 	top : 4rem;
 }
+@media screen (max-width: 650px){
+	html{
+		font-size : 2rem;
+	}
+}
