@@ -32,12 +32,14 @@
 .sec .sec-item:first-of-type{
 	margin-top : 1rem;
 }
-.pro-name .pro-time{
+.pro-name ,.pro-time{
 	font-weight : bolder;
 	font-size : 1.3rem;
 	padding-bottom : .3rem;
 }
-#name , sec-final{
+#name ,sec-final div{
 	font-size : 3rem;
+}
+sec-final div{
 	text-align : center;
 }
