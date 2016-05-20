@@ -1,6 +1,5 @@
 .re-wrap{
 	width : 70%;
-	padding : 2rem;
 	margin-left: auto;
 	margin-right: auto;
 	min-width : 450px;
@@ -11,7 +10,7 @@
 	overflow: hidden;
 	font-family: sans-serif;
 	border : .2rem solid #d3d3d3;
-	color : #555555;
+	color : #444444;
 	padding : 1rem;
 	margin-bottom : 2rem;
 	border-radius : .8rem;
@@ -27,19 +26,24 @@
 }
 .sec-main{
 	font-size : 1rem;
-	padding-top : 1rem;
 }
-.sec .sec-item:first-of-type{
-	margin-top : 1rem;
+.sec .sec-item{
+	margin-top : 1.2rem;
 }
 .pro-name ,.pro-time{
-	font-weight : bolder;
+	color : #000000;
 	font-size : 1.3rem;
 	padding-bottom : .3rem;
+}
+#name{
+	border-bottom: .1rem solid #3d3d3d;
 }
 #name ,.sec-final div{
 	font-size : 3rem;
 }
 .sec-final div{
-	text-align : center;!important
+	text-align : center;
+}
+.sec-final .sec-main{
+	font-size :2rem;
 }

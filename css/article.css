@@ -132,3 +132,10 @@ footer div{
 	color : #ffffff;
 	background-color : #ff0000;
 }
+.page-404{
+	text-align :center;
+	font-size : 4rem;
+}
+.bg{
+	max-width: 100%;
+}
