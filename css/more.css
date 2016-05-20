@@ -37,9 +37,9 @@
 	font-size : 1.3rem;
 	padding-bottom : .3rem;
 }
-#name ,sec-final div{
+#name ,.sec-final div{
 	font-size : 3rem;
 }
-sec-final div{
-	text-align : center;
+.sec-final div{
+	text-align : center;!important
 }
