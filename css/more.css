@@ -1,5 +1,6 @@
 .re-wrap{
 	width : 70%;
+	padding : 2rem;
 	margin-left: auto;
 	margin-right: auto;
 	min-width : 450px;
@@ -14,7 +15,7 @@
 	font-family: sans-serif;
 	border : .2rem solid #d3d3d3;
 	color : #555555;
-	padding : 1rem  .2rem;
+	padding : 1rem;
 	margin-bottom : 2rem;
 	border-radius : .8rem;
 	box-shadow: .4rem .4rem .4rem #aaaaaa;
@@ -24,10 +25,14 @@
 	border-bottom : .1rem solid #3d3d3d;
 	word-break: break-all;
 	font-size : 2rem;
+	font-weight : bolder;
 }
 .sec-main{
 	font-size : 1rem;
 }
+.sec .sec-item:first-of-type{
+	margin-top : 2rem;
+}
 .sec-item{
-	padding-top : .5rem;
+	padding-top : 1rem;
 }
