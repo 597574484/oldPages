@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　<title>{{ page.title }}</title>
+	<title>{{ page.title }}</title>
+	<link rel = "stylesheet" href = "/css/article.css"/>
+	<link rel = "stylesheet" href = "/css/normalize.css"/>
+	<link rel = "stylesheet" href = "/css/more.css"/>
+	>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
 <body>
-	{{ content }}
-
+	<header class = "top-header" id = "top">
+		<i class = "logo"></i>
+		<nav>
+			<a class = "active" href = "#top">Home</a>
+			<a href = "#">Notes</a>
+			<a href = "#">Info</a>
+		</nav>
+	</header>
+	<div class = "container">
+		{{content}}
+	</div>
+	<footer class = "bottom-footer">
+		<div class = "wel">Welcome to Fanhehe.cn</div>
+	</footer>
 </body>
 </html>
