@@ -31,7 +31,7 @@ body{
 	vertical-align: bottom;
 	position : absolute;
 	white-space : nowrap;
-	right : 5rem;
+	right : 20px;
 }
 .top-header  nav a{
 	display : inline-block;
