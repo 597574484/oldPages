@@ -11,7 +11,6 @@
 	font-family: sans-serif;
 	color : #444444;
 	padding : 1rem;
-	border-radius : .8rem;
 	box-shadow: .4rem .4rem .4rem #aaaaaa;
 	background-color: rgba(255,255,255,.1);
 }
@@ -55,6 +54,9 @@
 }
 .sec-final .sec-main{
 	font-size :2rem;
+}
+.sec-final{
+	margin-bottom : 30px;
 }
 .pro-detail{
 	line-height : 2rem;
