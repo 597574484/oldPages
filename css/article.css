@@ -90,11 +90,6 @@ body{
 	white-space: normal;
 	word-break: break-all; 
 }
-.main-page section:first-letter{
-	float : left;
-	font-size : 3.6rem;
-	vertical-align: top;	
-}
 .main-page footer{
 	margin-top : 2rem;
 	border-top : .2rem solid #3d3d3d;
