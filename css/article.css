@@ -69,16 +69,18 @@ body{
 	margin : 0 auto;
 }
 .main-page header{
-	font-size : 5rem;
+	font-size : 3rem;
 	border-bottom : .2rem solid #3d3d3d;
 	font-family : Microsoft Yahei;
 	white-space: normal;
 	word-break: break-all; 
+	padding-top : 20px;
 }
 .tips{
 	font-size : 2rem;
 	text-align : right;
 	font-family : Microsoft Yahei;
+	padding-bottom : 20px;
 }
 .main-page  section{
 	font-family: Microsoft Yahei;
@@ -103,7 +105,6 @@ footer div{
 .bottom-footer{
 	position : relative;
 	top : 5rem;
-	height : 20rem;
 }
 .wel{
 	position: absolute;
@@ -138,4 +139,32 @@ footer div{
 }
 .bg{
 	max-width: 100%;
+}
+.note-list{
+	text-align : center;
+}
+.note-list li{
+
+}
+.note-list a{
+	display: inline-block;
+  text-decoration : none;
+  box-sizing: border-box;
+  color : #156A86;
+  font-weight : bolder;
+  font-size : 20px;
+  line-height : 50px;
+  text-align : center;
+  min-width : 200px;
+  min-height : 50px;
+  transition : all .3s ease-in-out;
+}
+.note-list a:link, .note-list a:visited{
+
+}
+.note-list a:hover, .note-list a:active{
+	background-color : #ff0000;
+    color : #ffffff;
+    box-shadow: 4px 4px 4px #aaaaaa;
+    border-top-right-radius: 4px; 
 }
