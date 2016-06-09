@@ -159,6 +159,12 @@ footer div{
   min-height : 50px;
   transition : all .3s ease-in-out;
 }
+.git-works{
+	text-align :center;
+}
+.git-works a{
+	display: block;
+}
 .note-list a:link, .note-list a:visited,.git-works a:link, .git-works a:visited{
 
 }
