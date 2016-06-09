@@ -146,7 +146,7 @@ footer div{
 .note-list li{
 
 }
-.note-list a{
+.note-list a, .git-works a{
 	display: inline-block;
   text-decoration : none;
   box-sizing: border-box;
@@ -159,11 +159,11 @@ footer div{
   min-height : 50px;
   transition : all .3s ease-in-out;
 }
-.note-list a:link, .note-list a:visited{
+.note-list a:link, .note-list a:visited,.git-works a:link, .git-works a:visited{
 
 }
-.note-list a:hover, .note-list a:active{
-	background-color : #ff0000;
+.note-list a:hover, .note-list a:active, .git-works a:hover, .git-works a:active{
+	background-color : #8AF2F2;
     color : #ffffff;
     box-shadow: 4px 4px 4px #aaaaaa;
     border-top-right-radius: 4px; 
